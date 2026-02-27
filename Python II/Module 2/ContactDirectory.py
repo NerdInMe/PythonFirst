@@ -56,7 +56,7 @@ def main():
             else:
                 print("Invalid number.")
         elif command == "exit":
-            print("Exiting program.")
+            print("Bye.")
             break
         else:
             print("Invalid command. Please try again.")

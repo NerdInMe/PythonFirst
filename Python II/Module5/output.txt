@@ -1,0 +1,79 @@
+Unable to take screenshot for whole output.
+PS C:\Users\jainn\Coding\LearningPython\PythonFirst\Python II\Module5> python .\handling_wizard_errors.py
+The Wizard Inventory program
+
+COMMAND MENU
+walk - Walk down the path
+show - Show all items
+drop - Drop an item
+exit - Exit program
+
+Inventory file not found. Starting with empty inventory.
+Command: show
+
+Command: walk
+While walking down a path, you see a wooden staff.
+Do you want to grab it? (y/n): y
+You picked up a wooden staff.
+
+Command: drop
+Number: 8
+Invalid item number.
+
+Command: show
+1. a wooden staff
+
+Command: drop
+Number: 1
+You dropped a wooden staff.
+
+Command: show
+
+Command: walk
+While walking down a path, you see a scroll of uncursing.
+Do you want to grab it? (y/n): y
+You picked up a scroll of uncursing.
+
+Command: walk
+While walking down a path, you see an unknown potion.
+Do you want to grab it? (y/n): y
+You picked up an unknown potion.
+
+Command: walk
+While walking down a path, you see a wizard's cloak.
+Do you want to grab it? (y/n): y
+You picked up a wizard's cloak.
+While walking down a path, you see a scroll of uncursing.
+Do you want to grab it? (y/n): y
+You picked up a scroll of uncursing.
+
+Command: walk
+While walking down a path, you see an unknown potion.
+Do you want to grab it? (y/n): y
+You picked up an unknown potion.
+
+Command: walk
+While walking down a path, you see a wizard's cloak.
+Do you want to grab it? (y/n): y
+You picked up a wizard's cloak.
+Do you want to grab it? (y/n): y
+You picked up an unknown potion.
+
+Command: walk
+While walking down a path, you see a wizard's cloak.
+Do you want to grab it? (y/n): y
+You picked up a wizard's cloak.
+Do you want to grab it? (y/n): y
+You picked up a wizard's cloak.
+You picked up a wizard's cloak.
+
+Command: show
+1. a scroll of uncursing
+2. an unknown potion
+3. a wizard's cloak
+
+Command: 4
+Not a valid command. Please try again.
+
+Command: exit
+Bye!
